@@ -7,7 +7,7 @@ DB = os.path.join(tempfile.gettempdir(), 'fake_useragent.json')
 
 BROWSERS_STATS_PAGE = 'http://www.w3schools.com/browsers/browsers_stats.asp'
 
-BROWSER_BASE_PAGE = 'http://useragentstring.com/pages/{}/'
+BROWSER_BASE_PAGE = 'http://useragentstring.com/pages/{0}/'
 
 BROWSERS_COUNT_LIMIT = 50
 
